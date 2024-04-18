@@ -1,29 +1,22 @@
-#historia {
-    background-color: rgb(208, 189, 116);
-    background-image: url("https://i.pinimg.com/736x/f0/62/a5/f062a5e17ff61f58ad7891f63f45b4bf.jpg") ;
-    background-size: cover; 
-    background-position: center; 
-}
-
-#fisica {
-    background-color: rgb(21, 6, 38);
-    background-image: url("https://d.newsweek.com/en/full/2252228/outer-space.jpg") ;
-    background-size: cover; 
-    background-position: center; 
-    color: antiquewhite;
-}
-
-body {
-    font-size: small;
-    
-}
-
 * {
     
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-size: small;  
+}
+
+#tit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    background-image: url("https://revistaazul.voeazul.com.br/wp-content/uploads/2021/10/fuji-destaque.jpg") ;
+    color: rgb(12, 2, 22);
 }
 
 .tit2 {
@@ -36,22 +29,11 @@ body {
     padding-left: 38px;
 }
 
-#ew {
-    font-size: 20px;
-    background-image: url("https://revistaazul.voeazul.com.br/wp-content/uploads/2021/10/fuji-destaque.jpg") ;
-}
-
-#fisica a {
-    color:rgb(176, 0, 0);
-}
-
-#tit {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 300%;
-    background-image: url("https://revistaazul.voeazul.com.br/wp-content/uploads/2021/10/fuji-destaque.jpg") ;
-    color: rgb(12, 2, 22);
+#historia {
+    background-color: rgb(208, 189, 116);
+    background-image: url("https://i.pinimg.com/736x/f0/62/a5/f062a5e17ff61f58ad7891f63f45b4bf.jpg") ;
+    background-size: cover; 
+    background-position: center; 
 }
 
 .his1 {
@@ -72,6 +54,18 @@ body {
     width: 30%;
 }
 
+#fisica {
+    background-color: rgb(21, 6, 38);
+    background-image: url("https://d.newsweek.com/en/full/2252228/outer-space.jpg") ;
+    background-size: cover; 
+    background-position: center; 
+    color: antiquewhite;
+}
+
+#fisica a {
+    color:rgb(176, 0, 0);
+}
+
 .fis1 {
     display: flex ;
     justify-content: space-between;
@@ -88,4 +82,9 @@ body {
 
 .fis2 article {
     width: 30%;
+}
+
+#ew {
+    font-size: 20px;
+    background-image: url("https://revistaazul.voeazul.com.br/wp-content/uploads/2021/10/fuji-destaque.jpg") ;
 }
